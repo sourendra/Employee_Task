@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".EmployeeDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/employeeDetails_ivEmployee"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/ic_person" />
+
+                <TextView
+                    android:id="@+id/employeeDetails_tvEmployee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@+id/employeeDetails_ivEmployee"
+                    android:layout_toRightOf="@+id/employeeDetails_ivEmployee"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    tools:text="Sourendra Gantait" />
+
+                <TextView
+                    android:id="@+id/employeeDetails_tvAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/employeeDetails_tvEmployee"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@+id/employeeDetails_ivEmployee"
+                    android:layout_toRightOf="@+id/employeeDetails_ivEmployee"
+                    tools:text="27" />
+
+                <TextView
+                    android:id="@+id/employeeDetails_tvGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/employeeDetails_tvEmployee"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@+id/employeeDetails_tvAge"
+                    android:layout_toRightOf="@+id/employeeDetails_tvAge"
+                    tools:text="Male" />
+
+                <TextView
+                    android:id="@+id/employeeDetails_tvDesignation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/employeeDetails_tvAge"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@+id/employeeDetails_ivEmployee"
+                    android:layout_toRightOf="@+id/employeeDetails_ivEmployee"
+                    tools:text="Developer" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/employeeDetails_tvSanctionedLeaves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/sanctioned_leaves"
+                android:textColor="@color/colorBlack" />
+
+            <com.sourendra.employeetask.NonScrollListView
+                android:id="@+id/employeeDetails_nsSanctionsLeaves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/colorBlack"
+                android:dividerHeight="1dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/leave_option"
+                android:textColor="@color/colorBlack" />
+
+            <Spinner
+                android:id="@+id/employeeDetails_spLeaveOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/date"
+                android:textColor="@color/colorBlack" />
+
+            <EditText
+                android:id="@+id/employeeDetails_etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+            <LinearLayout
+                android:id="@+id/employeeDetails_llDateRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/employeeDetails_etFromDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/from_date" />
+
+                <EditText
+                    android:id="@+id/employeeDetails_etToDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/to_date" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/employeeDetails_btnSanction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/sanction"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

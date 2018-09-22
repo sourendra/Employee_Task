@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Employee Task</string>
+    <string name="employee_image">Employee Image</string>
+    <string name="leave_option">Leave Option:</string>
+    <string name="sanction">Sanction</string>
+    <string name="sanctioned_leaves">Sanctioned Leaves</string>
+    <string name="date">Date</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+</resources>
