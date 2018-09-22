@@ -1,0 +1,184 @@
+{
+	"Employees": [
+		{
+			"userId": "1",
+			"designation": "Developer",
+			"name": "Sourendra Gantait",
+			"age": "27",
+			"employeeCode": "E1",
+			"region": "BLR",
+			"imageUrl": "http://542partners.com.au/wp-content/uploads/2015/04/important-employees%E2%80%99-rights.jpg"
+		},
+		{
+			"userId": "2",
+			"designation": "Developer",
+			"name": "Imran Ali",
+			"age": "25",
+			"employeeCode": "E2",
+			"region": "BLR",
+			"imageUrl": "https://nationaldailyng.com/wp-content/uploads/2017/03/empower-employee-TMF.jpg"
+		},
+		{
+			"userId": "3",
+			"designation": "Developer",
+			"name": "Sharath Gowda",
+			"age": "25",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://www.bhsf.co.uk/images/home/corporate.png"
+		},
+		{
+			"userId": "4",
+			"designation": "Developer",
+			"name": "Madhusudan SH",
+			"age": "25",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://cdn-images-1.medium.com/max/1200/0*pAdZLfSqNrMZAAPA.jpg"
+		},
+		{
+			"userId": "5",
+			"designation": "Developer",
+			"name": "Sujan Kumar",
+			"age": "25",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://usebsg.com/wp-content/uploads/sites/3/2015/07/iStock_000003485265Large.jpg"
+		},
+		{
+			"userId": "6",
+			"designation": "Developer",
+			"name": "Anupam Gantait",
+			"age": "27",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://wisebread-killeracesmedia.netdna-ssl.com/files/fruganomics/imagecache/250w/blog-images/thinking-guy.jpg"
+		},
+		{
+			"userId": "7",
+			"designation": "Developer",
+			"name": "Aparesh Gantait",
+			"age": "28",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcECE5Fda9rs0bsCGkStPOG9SWce45NRnki8UXm9e716PTzYjD"
+		},
+		{
+			"userId": "8",
+			"designation": "Developer",
+			"name": "Susmita Gantait",
+			"age": "24",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "http://www.irishlifecorporatebusiness.ie/sites/default/files/slider/employee_2.jpg"
+		},
+		{
+			"userId": "9",
+			"designation": "Developer",
+			"name": "Moon Saralaya",
+			"age": "26",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://c1.staticflickr.com/8/7549/15868222450_68431282ae_b.jpg"
+		},
+		{
+			"userId": "10",
+			"designation": "Developer",
+			"name": "Govind Prasad",
+			"age": "28",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://www.state.nj.us/njsp/oeod/images/eap.jpg"
+		},
+		{
+			"userId": "11",
+			"designation": "Developer",
+			"name": "Priyanka Gantait",
+			"age": "24",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://espaergasia.com/wp-content/uploads/2017/05/Office-Worker.jpg"
+		},
+		{
+			"userId": "12",
+			"designation": "Developer",
+			"firstName": "Saikat Gantait",
+			"lastName": "36",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "http://ujszo.com/sites/default/files/lead_image/office-worker-sitting-obesity_1.jpg"
+		},
+		{
+			"userId": "13",
+			"designation": "Developer",
+			"name": "Sourav Gantait",
+			"age": "34",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://cdn.shrm.org/image/upload/c_crop,h_1192,w_2121,x_0,y_99/c_fit,f_auto,q_auto,w_767/v1/Employee%20Relations/iStock-625869812_ho8v2c?databtoa=eyIxNng5Ijp7IngiOjAsInkiOjk5LCJ4MiI6MjEyMSwieTIiOjEyOTEsInciOjIxMjEsImgiOjExOTJ9fQ%3D%3D"
+		},
+		{
+			"userId": "14",
+			"designation": "Developer",
+			"name": "Soumen Gantait",
+			"age": "Hanks",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://s3-eu-central-1.amazonaws.com/centaur-wp/employeebenefits/prod/content/uploads/2016/02/Kamel-Mellahi.jpg"
+		},
+		{
+			"userId": "15",
+			"designation": "Developer",
+			"name": "Saibal Gantait",
+			"age": "20",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://files.virgool.io/upload/users/2146/posts/lxrm3wavdepn/al4cciigfiug.jpeg"
+		},
+		{
+			"userId": "16",
+			"designation": "Developer",
+			"name": "Soumyadip Gantait",
+			"age": "20",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "http://www.redmedia.no/wp-content/uploads/2016/01/testbilde.jpg"
+		},
+		{
+			"userId": "17",
+			"designation": "Developer",
+			"name": "Tom Hanks",
+			"age": "55",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "http://pcexpert247.in/team/images/james-beerbac8.jpg"
+		},
+		{
+			"userId": "18",
+			"designation": "Developer",
+			"name": "Adarsh P",
+			"age": "28",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "http://www.reliancenipponlife.com/product_images/plans/7124_Traditional-Group-Employee-Benefits-web.jpg"
+		},
+		{
+			"userId": "19",
+			"designation": "Developer",
+			"name": "Madhu Kumar",
+			"age": "28",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "https://www.4ccf.org/wp-content/uploads/2016/07/employee-1.png"
+		},
+		{
+			"userId": "20",
+			"designation": "Developer",
+			"name": "Suhaas K",
+			"age": "30",
+			"employeeCode": "E3",
+			"region": "BLR",
+			"imageUrl": "http://kanityapi.com/wp-content/uploads/2016/01/category-leadership-management-3.jpg"
+		}
+	]
+}
